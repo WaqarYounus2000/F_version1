@@ -8,10 +8,48 @@
     }
 
     .aside1{
-        width: 0%;
+        /* width: 0%; */
+        overflow: hidden;
+        transform: translateX(-120%);
     }
     .aside2{
         width:100%;
+        position: absolute;
+    }
+    .cardsdiv{
+        display: none;
+    }
+    .aside2>div>p{
+        font-size: 0.6em;
+    }
+    .cards{
+        width: 170px;
+        height: 225px;
+        position: relative;
+        top: 225px;
+    }
+    .info>li,h5{
+        font-size: 0.6em;
+    }
+    .cards>h3,i{
+        font-size: 0.7em;
+    }
+    .info>h4{
+        font-size: 0.7em;
+    }
+    .info>p{
+        font-size: 0.7em;
+    }
+
+    .title>h3{
+        font-size: 0.8em;    
+    }
+    .slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+
     }
 
 
