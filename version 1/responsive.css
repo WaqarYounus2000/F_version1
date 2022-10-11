@@ -27,6 +27,8 @@
         height: 225px;
         position: relative;
         top: 225px;
+        left: 110px;
+}
     }
     .info>li,h5{
         font-size: 0.6em;
@@ -53,4 +55,4 @@
     }
 
 
-  }
+  
