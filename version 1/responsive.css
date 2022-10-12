@@ -3,6 +3,8 @@
     body {
         font-family: 'League Spartan', sans-serif;
         font-family: 'Varela Round', sans-serif;
+        scroll-snap-type: x;
+
     }
 
     .heading2 {
@@ -18,18 +20,19 @@
         position: absolute;
         top: -10px;
         /* width: 0%; */
-        overflow: hidden;
+        /* overflow: hidden; */
         transform: translateX(-120%);
         width: 100vw;
-        overflow: hidden;
+        /* overflow: hidden; */
         transition: all 600ms;
+        scroll-snap-align: start;
 
     }
 
     .aside2 {
         width: 100%;
         position: absolute;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .cardsdiv {
@@ -114,7 +117,7 @@
     }
 
     .iconsforsocialmedia{
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
 
