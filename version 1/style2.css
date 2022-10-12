@@ -2,7 +2,12 @@ body {
     margin: 0px;
     user-select: none;
     padding: 0px;
+
+    /* font-family: 'League Spartan', sans-serif; */
     font-family: 'Varela Round', sans-serif;
+    font-family:'Times New Roman', Times, serif;
+
+
 }
 
 #container {
@@ -59,6 +64,7 @@ body {
     background-color: transparent;
     opacity: 0.3;
     transition: all 0.3s;
+    border: none;
 }
 
 .downarrow:hover {
@@ -138,21 +144,21 @@ body {
 /* //////////////////////////////////////////////////// page 2 style/////////////// */
 
 
-.aside1{
+.aside1 {
     height: 100vh;
     width: 25%;
     /* border: 2px solid rgb(13, 14, 13); */
     box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
 
-.aside2{
+.aside2 {
     height: 100vh;
     width: 75%;
     /* border: 2px solid rgb(223, 8, 8); */
 
 }
 
-.profilediv{
+.profilediv {
     /* border: 2px solid red; */
     width: 100%;
     height: 200px;
@@ -174,17 +180,20 @@ body {
     background-size: contain;
     border-radius: 150px;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.licontent{
+
+.licontent {
     display: flex;
     align-items: center;
 }
+
 .name {
-    
+
     border-bottom: 2px solid white;
 }
 
@@ -195,9 +204,11 @@ body {
     text-align: center;
     /* width: 70%; */
 }
-.white{
+
+.white {
     color: white;
 }
+
 .unorderlist1 {
 
     display: flex;
@@ -212,24 +223,26 @@ body {
     padding: 5px;
 
 }
+
 .headingh4info {
     padding: 0px;
     margin: 0px;
     font-size: 0.8em;
     font-weight: 400;
- 
+
 }
 
-.cardsdiv{
+.cardsdiv {
     width: 100%;
     /* border: 2px solid black; */
     height: 300px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;  
-    flex-wrap: wrap;  
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.cards{
+
+.cards {
     box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
     box-sizing: border-box;
     border-radius: 12px;
@@ -242,28 +255,43 @@ body {
     align-items: center;
     flex-direction: column;
     transition: all 0.4s;
-    
+
 }
 
-.uparrow{
+.uparrow {
     background-color: transparent;
     border: none;
     opacity: 0.3;
 }
-.uparrow:hover{
+
+.uparrow:hover {
     opacity: 1;
     cursor: pointer;
 }
-.info2{
+
+.info2 {
     font-size: 0.8em;
 }
 
 
-.slider{
+.slider_div {
     display: none;
 }
 
+.closemenu {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin-right: 10px;
+}
 
+.hidemenubutton {
+    display: none;
+}
+
+.menu {
+    display: none !important;
+}
 
 
 
@@ -300,12 +328,12 @@ body {
     align-items: center;
     width: 100%;
     background-color: #333;
-    
+
 }
 
 .unorderlist1 {
-    
-    
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -441,5 +469,3 @@ i {
 
 
 /*//////////////////////////////////////////////icon style finish  */
-
-
