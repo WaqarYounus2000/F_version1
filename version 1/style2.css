@@ -4,11 +4,16 @@ body {
     padding: 0px;
 
     /* font-family: 'League Spartan', sans-serif; */
-    font-family: 'Varela Round', sans-serif;
-    font-family:'Times New Roman', Times, serif;
+   font-family: myFirstFont;
 
 
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/Varela_Round/VarelaRound-Regular.ttf');
+    font-weight: bold;
+  }
 
 #container {
     display: flex;
@@ -231,7 +236,15 @@ body {
     font-weight: 400;
 
 }
+.info>h4{
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline !important;
 
+}
+.title>h3{
+    font-size: 18px;
+}
 .cardsdiv {
     width: 100%;
     /* border: 2px solid black; */

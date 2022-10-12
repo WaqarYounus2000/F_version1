@@ -49,8 +49,11 @@
     }
 
 
-    .info>li,
-    h5 {
+    .info>h5{
+        font-size: 0.8em;
+        text-decoration: underline;
+    }
+    .info>li{
         font-size: 0.6em;
     }
 
