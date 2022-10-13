@@ -17,7 +17,10 @@ body {
     /* transition: all 1000ms ease 0s; */
     scroll-behavior: smooth;
     scroll-snap-align: start;
+    transition: all 1000ms ease 0.2s;
     transform-style: preserve-3d
+    
+    
 }
 
 .one {
@@ -44,8 +47,8 @@ body {
     height: 100%;
     scroll-snap-align: start;
     transform: translate3d(0px, 0%, 0px);
-    transition: all 1000ms ease 0.2s;
     background-color: #72C9B9;
+    transition: all 1000ms ease 0.2s;
 }
 
 .three {
@@ -56,6 +59,7 @@ body {
     width: 100%;
     height: 100%;
     scroll-snap-align: center;
+    transition: all 1000ms ease 0.2s;
 }
 
 

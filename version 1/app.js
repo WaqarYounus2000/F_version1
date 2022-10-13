@@ -1,40 +1,50 @@
+var percentage=0;
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
 const button3 = document.getElementById('button3');
 const button4 = document.getElementById('button4');
 
 
-button1.onclick = ()=>{
-    const oneID = document.getElementById('mainwrapperID');
-    oneID.classList.add("active")
-    oneID.classList.remove("active2")
-    oneID.classList.remove("active3")
-    oneID.classList.remove("active6")
+button1.onclick = () => {
+	const oneID = document.getElementById('mainwrapperID');
+	percentage += -100;
+	oneID.style.transform=`translate3d(0px, ${percentage}%, 0px)`;
+	// oneID.classList.add("active")
+	// oneID.classList.remove("active2")
+	// oneID.classList.remove("active3")
+	// oneID.classList.remove("active6")
+	console.log('clicked')
 }
-button2.onclick = ()=>{
-    const oneID = document.getElementById('mainwrapperID');
-    oneID.classList.remove("active")
-    oneID.classList.remove("active2")
-    oneID.classList.remove("active3")
-    oneID.classList.remove("active6")
-    oneID.classList.add("active2")
-   
+button2.onclick = () => {
+	const oneID = document.getElementById('mainwrapperID');
+	percentage += +100;
+	oneID.style.transform=`translate3d(0px, ${percentage}%, 0px)`;
+	// oneID.classList.remove("active")
+	// oneID.classList.remove("active2")
+	// oneID.classList.remove("active3")
+	// oneID.classList.remove("active6")
+	// oneID.classList.add("active2")
+
 }
-button3.onclick = ()=>{
-    const oneID = document.getElementById('mainwrapperID');
-    oneID.classList.add("active3")
-    oneID.classList.remove("active2")
-    oneID.classList.remove("active6")
-    oneID.classList.remove("active")
-   
+button3.onclick = () => {
+	const oneID = document.getElementById('mainwrapperID');
+	percentage += -100;
+	oneID.style.transform=`translate3d(0px, ${percentage}%, 0px)`;
+	// oneID.classList.add("active3")
+	// oneID.classList.remove("active2")
+	// oneID.classList.remove("active6")
+	// oneID.classList.remove("active")
+
 }
-button4.onclick = ()=>{
-    const oneID = document.getElementById('mainwrapperID');
-    oneID.classList.add("active6")
-    oneID.classList.remove("active")
-    oneID.classList.remove("active2")
-    oneID.classList.remove("active3")
-   
+button4.onclick = () => {
+	const oneID = document.getElementById('mainwrapperID');
+	percentage += +100;
+	oneID.style.transform=`translate3d(0px, ${percentage}%, 0px)`;
+	// oneID.classList.add("active6")
+	// oneID.classList.remove("active")
+	// oneID.classList.remove("active2")
+	// oneID.classList.remove("active3")
+
 }
 
 
@@ -111,3 +121,21 @@ _INTERVAL_VAL = setInterval(Type, 200);
 
 
 ///////////////////////////////animation finishes/////////////////////////////////////
+
+document.addEventListener('keydown', (event) => {
+	var name = event.key;
+	var code = event.code;
+	if (name == 'ArrowDown' && percentage>=-100) {
+		percentage += -100;
+		const oneID = document.getElementById('mainwrapperID');
+		oneID.style.transform=`translate3d(0px, ${percentage}%, 0px)`;
+		
+	}
+	else if (name == 'ArrowUp' && percentage<=-100) {
+		percentage +=100;
+		const oneID = document.getElementById('mainwrapperID');
+		oneID.style.transform=`translate3d(0px, ${percentage}%, 0px)`;
+		
+	}
+
+});

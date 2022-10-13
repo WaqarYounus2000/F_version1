@@ -230,6 +230,11 @@ body {
     /* color: #212529; */
     color: white;
 }
+.uparrow{
+    margin-top: 12px;
+    width: 50px;
+    animation: lighting 3s infinite;
+}
 
 .unorderlist1 {
 

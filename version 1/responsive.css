@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1320px) {
 
     body {
         font-family: 'League Spartan', sans-serif;
@@ -52,11 +52,12 @@
     }
 
 
-    .info>h5{
+    .info>h5 {
         font-size: 0.8em;
         text-decoration: underline;
     }
-    .info>li{
+
+    .info>li {
         font-size: 0.6em;
     }
 
@@ -77,14 +78,16 @@
         font-size: 0.8em;
     }
 
-    .active{position: relative;
-    transform: translate3d(0px, 0%, 0px);
-    transition: all 1000ms ease 0.2s
+    .active {
+        position: relative;
+        transform: translate3d(0px, 0%, 0px);
+        transition: all 1000ms ease 0.2s
     }
-    .secondpagecontent{
+
+    .secondpagecontent {
         font-size: 1.6em;
     }
-    
+
     .slider_div {
         width: 100%;
         height: 245px;
@@ -92,23 +95,27 @@
         justify-content: center !important;
         align-items: center !important;
     }
-    .carousel-control-next, .carousel-control-prev{
-        top: 50% !important;
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 20% !important;
     }
+
     .carousel-inner {
-        
+
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
     }
+
     .carousel-inner {
         position: absolute;
         width: 100%;
         overflow: hidden;
         height: 300px !important;
-        top: 80px !important;
+        top: 30px !important;
     }
-    
+
     .sliderbutton {
         width: 15px !important;
         margin: 10px !important;
@@ -125,7 +132,8 @@
         width: 24px;
 
     }
-    footer{
+
+    footer {
         bottom: 3%;
     }
 
@@ -135,11 +143,12 @@
         right: 5px;
         top: 3px;
     }
+
     .page1_div2 {
         bottom: 4%;
     }
 
-    .iconsforsocialmedia{
+    .iconsforsocialmedia {
         /* overflow: hidden; */
     }
 
