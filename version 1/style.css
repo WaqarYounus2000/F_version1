@@ -19,8 +19,6 @@ body {
     scroll-snap-align: start;
     transition: all 1000ms ease 0.2s;
     transform-style: preserve-3d
-    
-    
 }
 
 .one {
@@ -38,6 +36,10 @@ body {
 }
 
 .two {
+    background: #fcfcfc;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+
     position: absolute;
     /* top: 200%; */
     top: 100%;
@@ -47,8 +49,10 @@ body {
     height: 100%;
     scroll-snap-align: start;
     transform: translate3d(0px, 0%, 0px);
-    background-color: #72C9B9;
+    /* background-color: #72C9B9; */
+    /* background-color: #bcdee7; */
     transition: all 1000ms ease 0.2s;
+    background-color: white;
 }
 
 .three {

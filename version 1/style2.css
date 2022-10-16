@@ -4,7 +4,8 @@ body {
     padding: 0px;
 
     /* font-family: 'League Spartan', sans-serif; */
-    font-family: myFirstFont;
+    /* font-family: 'League Spartan', sans-serif; */
+    font-family: 'Varela Round', sans-serif;
 
 
 }
@@ -92,7 +93,7 @@ body {
     align-items: center;
     background-color: white;
     position: absolute;
-    left:-22px;
+    left: -22px;
     bottom: 40px;
     transform: all 0.5;
     border-radius: 5px;
@@ -166,9 +167,15 @@ body {
 
 .aside1 {
     height: 100vh;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     width: 25%;
     /* border: 2px solid rgb(13, 14, 13); */
     box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+    /* background-color: white; */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+
+
 }
 
 .aside2 {
@@ -185,7 +192,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background: #27AAE1;
 }
+
+/* .circle{
+    background-color: #27AAE1;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 255px;
+} */
 
 .pic2 {
     margin: 0px;
@@ -212,13 +232,17 @@ body {
     align-items: center;
 }
 
+.infoicons {
+    color: black;
+}
+
 .name {
 
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(24, 23, 23);
 }
 
 .uniintro {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(20, 19, 19);
     /* border: 2px solid rgb(230, 24, 10); */
 
     text-align: center;
@@ -228,9 +252,10 @@ body {
 .white {
     color: rgb(20, 19, 19);
     /* color: #212529; */
-    color: white;
+    /* color: white; */
 }
-.uparrow{
+
+.uparrow {
     margin-top: 12px;
     width: 50px;
     animation: lighting 3s infinite;
@@ -280,19 +305,44 @@ body {
     flex-wrap: wrap;
 }
 
+/* .info>li{
+    display: flex;
+    justify-content: center;
+} */
+.info2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cardsicons1 {
+    color: black;
+    padding-right: 5px;
+    font-size: 0.5m;
+}
+
+/* .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: middle;
+} */
 .cards {
-    box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+    /* box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset; */
     box-sizing: border-box;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     width: 220px;
     height: 300px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
-    align-items: center;
     flex-direction: column;
     transition: all 0.4s;
+    /* background-color: white; */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    /* background: #27AAE1; */
 
 }
 
@@ -309,6 +359,7 @@ body {
 
 .info2 {
     font-size: 0.8em;
+
 }
 
 
