@@ -1,4 +1,7 @@
 @media screen and (max-width: 360px) {
+    .mySwiper {
+        display: block;
+    }
 
     body {
         font-family: 'League Spartan', sans-serif;
@@ -44,11 +47,10 @@
     }
 
     .cards {
-        width: 210px;
-        height: 275px;
+        width: 260px;
+        height: 322px;
         position: relative;
-        /* top: 225px; */
-        right: 30%;
+        transform: translate(0px, 0%);
     }
 
 
@@ -88,6 +90,7 @@
         font-size: 1.6em;
     }
 
+    /* 
     .slider_div {
         width: 100%;
         height: 245px;
@@ -113,13 +116,13 @@
         width: 100%;
         overflow: hidden;
         height: 300px !important;
-        top:-5px !important;
+        top: -5px !important;
     }
 
     .sliderbutton {
         width: 15px !important;
         margin: 10px !important;
-    }
+    } */
 
     .headingandmenu {
         display: flex;
@@ -143,13 +146,30 @@
         right: 5px;
         top: 3px;
     }
-    
+
 
     .page1_div2 {
         bottom: 7%;
     }
 
-    
+    .mySwiper {
+        display: block;
+        height: 399px;
+        height: 490px !important;
+        /* background: #fcfcfc  !important;
+        background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA)  !important;
+        background: linear-gradient(to right, #FFFFFF, #FFEFBA)  !important; */
+
+    }
+
+
+    .swiper-pagination-vertical.swiper-pagination-bullets,
+    .swiper-vertical>.swiper-pagination-bullets {
+        right: 10px;
+        top: 50%;
+        transform: translate3d(-6px, 0%, 0) !important;
+    }
+
 
 
 

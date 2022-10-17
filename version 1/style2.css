@@ -520,8 +520,12 @@ i {
 
 
 
+/* /////////////////////////////////////////////////myswiper */
+.mySwiper{
+    display: none;
+}
 
-
+/*  */
 @keyframes toTopFromBottom {
     49% {
         transform: translateY(-100%)
