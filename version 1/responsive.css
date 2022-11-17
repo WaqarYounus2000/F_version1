@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
     .mySwiper {
         display: block;
     }
@@ -178,9 +178,14 @@
 
 
 
+/* ???????????????????????page 3 slider //////////////////// */
+.slider2{
+    display: block;
+}
 
-
-
+.cardsforservice{
+    display: none;
+}
 
 
 

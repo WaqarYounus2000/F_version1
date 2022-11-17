@@ -387,16 +387,66 @@ body {
 
 
 
+/* page three style /////////////////////////////////// */
+
+/* ////////////////////////////////////////////// */
+
+.pagethreebody{
+    height: 85vh;
+    width: 100vw;
+    border: 2px solid green;
+}
+.cardsforservice{
+    border: 2px solid red;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
+.servicecards{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 250px;
+    padding: 4px;
+    width: 255px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #171515;
+    border-radius: 15px;
+    
+}
+.titleservice{
+    text-align: center;
+    font-size: 25px;
+}
+.para1{
+    text-align: center;
+}
+.serviceIcons{
+    font-size: 45px;
+}
 
 
+.slider2{
+    display: none;
+}
 
+.mySwiper,.swiper-wrapper,.swiper-slide-active {
+    height: 300px !important;
+}
+.swiper{
+    height: 300px !important;
 
+}
+/* .swiper,.mySwiper,.swiper-initialized,.swiper-vertical,.swiper-backface-hidden{
+    height: 300px !important;
 
-
-
-
+} */
 
 
 
