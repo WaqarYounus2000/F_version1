@@ -152,6 +152,9 @@
         bottom: 7%;
     }
 
+    .mySwiper, .swiper-wrapper, .swiper-slide-active {
+        height: 493px !important;
+    }
     .mySwiper {
         display: block;
         height: 399px;
